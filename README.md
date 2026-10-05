@@ -38,8 +38,12 @@ Final clean table, all years: **115,656 residential sales** (2021: 28,097, 2022:
 - Outliers removed: price < 10,000 €, surface outside 9-500 m², price/m² outside 500-15,000 €.
 - 2025 loses many rows at the commercial-premises step because of a few very large multi-lot sales; checked and confirmed as correct.
 
-## Findings
-TODO (after the analysis)
+## Findings (so far)
+- Bordeaux median price/m² peaked in 2022 (4,816 €) and fell about 11% by 2025 (4,269 €), mostly in 2024 (-7.5%).
+- Bordeaux is about 13% above Gironde for apartments and 55% above for houses (2025 medians).
+- In Bordeaux houses cost more per m² than apartments, the reverse of Gironde overall.
+- Clean sales in Bordeaux fell about 32% between 2021 and 2024, then partly recovered in 2025.
+- Prices are nominal (not inflation-adjusted).
 
 ## Limitations
 - Neighborhood is approximated by commune/postal code; DVF has no neighborhood field.
