@@ -38,12 +38,14 @@ Final clean table, all years: **115,656 residential sales** (2021: 28,097, 2022:
 - Outliers removed: price < 10,000 €, surface outside 9-500 m², price/m² outside 500-15,000 €.
 - 2025 loses many rows at the commercial-premises step because of a few very large multi-lot sales; checked and confirmed as correct.
 
-## Findings (so far)
+## Findings in progress (SQL trends and commune ranking done, "what drives price" analysis next)
 - Bordeaux median price/m² peaked in 2022 (4,816 €) and fell about 11% by 2025 (4,269 €), mostly in 2024 (-7.5%).
 - Bordeaux is about 13% above Gironde for apartments and 55% above for houses (2025 medians).
 - In Bordeaux houses cost more per m² than apartments, the reverse of Gironde overall.
 - Clean sales in Bordeaux fell about 32% between 2021 and 2024, then partly recovered in 2025.
 - Prices are nominal (not inflation-adjusted).
+- Location is a major driver: communes range from about 1,300 €/m² (Castillon-la-Bataille) to 8,100 (Lège-Cap-Ferret). Bordeaux ranks 8th at 4,600; the top 7 are coastal communes of the Bassin d'Arcachon, Médoc and Lacanau.
+- 2021 to 2025: the metropole fell most (Bordeaux -10.3%, Cenon -11.0%, Bègles -9.9%), while Arcachon (+6.3%) and Lège-Cap-Ferret (+3.8%) held up. Lacanau and Soulac rose strongly, to be verified by property type.
 
 ## Limitations
 - Neighborhood is approximated by commune/postal code; DVF has no neighborhood field.
