@@ -46,6 +46,11 @@ Final clean table, all years: **115,656 residential sales** (2021: 28,097, 2022:
 - Prices are nominal (not inflation-adjusted).
 - Location is a major driver: communes range from about 1,300 €/m² (Castillon-la-Bataille) to 8,100 (Lège-Cap-Ferret). Bordeaux ranks 8th at 4,600; the top 7 are coastal communes of the Bassin d'Arcachon, Médoc and Lacanau.
 - 2021 to 2025: the metropole fell most (Bordeaux -10.3%, Cenon -11.0%, Bègles -9.9%), while Arcachon (+6.3%) and Lège-Cap-Ferret (+3.8%) held up. Lacanau and Soulac rose strongly, to be verified by property type.
+- In Bordeaux, small units cost more per m²: apartments go from 5,325 €/m² (<25 m²) to 3,961 (60-80 m²), then rise again for large units.
+- Location inside Bordeaux matters: postal code 33000 (centre) has a median of 5,000 €/m², about 21% above 33300 (4,117).
+- What drives price/m² in Bordeaux (regression, R² = 0.18): property type (houses about +30% vs apartments, land included) and location (postal codes 14-16% below the centre, 33000) matter most; surface has a small negative effect; rooms add nothing once surface is controlled.
+- The 2021-2025 decline (about -10%) remains after controlling for type, surface and location, so it is not caused by a change in what was sold.
+- Most of the price variation (about 80%) is not explained by the data available in DVF (floor, condition, view, exact street).
 
 ## Limitations
 - Neighborhood is approximated by commune/postal code; DVF has no neighborhood field.
