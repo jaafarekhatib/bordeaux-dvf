@@ -52,6 +52,7 @@ Final clean table, all years: **115,656 residential sales** (2021: 28,097, 2022:
 - The 2021-2025 decline (about -10%) remains after controlling for type, surface and location, so it is not caused by a change in what was sold.
 - Most of the price variation (about 80%) is not explained by the data available in DVF (floor, condition, view, exact street).
 - Distance to the centre improves the model: held-out R² rises from 0.177 to 0.252 when added to surface, type, postal code and year. Location is the strongest driver found, though about 75% of price variation stays unexplained by DVF fields.
+- Each extra km from the centre lowers price/m² by about 10% on average (mostly apartments: median 5,098 €/m² within 1 km vs 3,435 beyond 4 km, about -33%). For houses the distance effect is weak, possibly because plot size grows with distance (hypothesis).
 
 ## Limitations
 - Neighborhood is approximated by commune/postal code; DVF has no neighborhood field.
